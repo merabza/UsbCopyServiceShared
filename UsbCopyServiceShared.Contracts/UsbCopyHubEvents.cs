@@ -5,6 +5,7 @@ public static class UsbCopyHubEvents
 {
     //კლიენტი → სერვისი
     public const string StartJob = "StartJob";
+    public const string ResumeJob = "ResumeJob";
     public const string AckPackage = "AckPackage";
 
     //სერვისი → კლიენტი
